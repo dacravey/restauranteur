@@ -1,1 +1,5 @@
-this.restauranteur.controller('HomeCtrl', ['$scope', function($scope) {}]);
+this.restauranteur.controller('HomeCtrl', [
+  '$scope', function($scope) {
+    return $scope.foo = 'bar';
+  }
+]);
